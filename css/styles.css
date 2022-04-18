@@ -147,6 +147,22 @@ a:link {
         color: white;
     }
 
+    /* ====== About Page ====== */
+
+    /* ====== Home Background Image ====== */
+    .about-banner {
+        background-image: url(../images/about-banner-600px.png);
+        height: 450px;
+    }
+
+    .about-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 200px;
+    }
+
 }
 
 /* ====== END OF MOBILE CSS ====== */
