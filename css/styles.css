@@ -270,6 +270,36 @@ a:link {
         text-align: center;
         padding-top: 200px;
     }
+
+    .contact-info {
+        display: block;
+        margin: 0 auto;
+        width: 215px;
+        padding-top: 30px;
+    }
+
+    .contact-info h5{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .contact-info p{
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .social-icons {
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .social-icons img{
+        padding-top: 15px;
+        padding: 15px;
+    }
 }
 
 /* ====== END OF MOBILE CSS ====== */
