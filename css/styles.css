@@ -169,6 +169,7 @@ a:link {
         padding-top: 200px;
     }
 
+    /* ====== My Story Section ====== */
     .my-story-section h4 {
         font-family: 'Abril Fatface', cursive;
         font-size: 27px;
@@ -189,6 +190,14 @@ a:link {
         padding-top: 30px;
         padding-bottom: 10px;
     }
+
+    .skills-image {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    /* ====== My Skills Section ====== */
 }
 
 /* ====== END OF MOBILE CSS ====== */
