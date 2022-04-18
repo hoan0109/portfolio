@@ -155,7 +155,7 @@ a:link {
 
     /* ====== About Page ====== */
 
-    /* ====== Home Background Image ====== */
+    /* ====== About Background Image ====== */
     .about-banner {
         background-image: url(../images/about-banner-600px.png);
         height: 450px;
@@ -234,6 +234,21 @@ a:link {
         border-radius: 15px;
         height: 80px;
         width: 49%;
+    }
+
+    /* ====== Portfolio Page ====== */
+    /* ====== About Background Image ====== */
+    .portfolio-banner {
+        background-image: url(../images/portfolio-banner-600px.png);
+        height: 450px;
+    }
+
+    .portfolio-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 200px;
     }
 }
 
