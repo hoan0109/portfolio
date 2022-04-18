@@ -242,13 +242,28 @@ a:link {
     }
 
     /* ====== Portfolio Page ====== */
-    /* ====== About Background Image ====== */
+    /* ====== Portfolio Background Image ====== */
     .portfolio-banner {
         background-image: url(../images/portfolio-banner-600px.png);
         height: 450px;
     }
 
     .portfolio-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    /* ====== Contact Page ====== */
+    /* ====== Contact Background Image ====== */
+    .contact-banner {
+        background-image: url(../images/contact-banner-600px.png);
+        height: 450px;
+    }
+
+    .contact-banner h3 {
         font-family: 'Abril Fatface', cursive;
         color: white;
         font-size: 55px;
