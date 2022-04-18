@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* ====== CSS RESET ====== */
 
@@ -103,6 +103,7 @@ a:link {
         width: 280px;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        font-family: 'Lato', sans-serif;
     }
 
     .home-text-section {
@@ -176,6 +177,10 @@ a:link {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+
+    .my-story-section p {
+        font-family: 'Lato', sans-serif;
     }
 
     .story-image {
