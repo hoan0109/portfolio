@@ -191,13 +191,50 @@ a:link {
         padding-bottom: 10px;
     }
 
+    /* ====== My Skills Section ====== */
     .skills-image {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 80px;
+    }
+
+    /* ====== Download Resume Section ====== */
+    .download-resume-section {
+        text-align: center;
+    }
+    .download-resume-section p{
+        font-family: 'PT Serif', serif;
+        font-size: 12px;
+    }
+
+    .resume-buttons {
+        padding-top: 20px;
+        padding-bottom: 70px;
         display: block;
         margin: 0 auto;
         width: 90%;
     }
 
-    /* ====== My Skills Section ====== */
+    .download-button {
+        color: white;
+        background-color: #3e606f;
+        border: none;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
+    }
+
+    .print-button {
+        color: black;
+        background-color: white;
+        border: solid;
+        border-width: 10px;
+        border-color: #193441;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
+    }
 }
 
 /* ====== END OF MOBILE CSS ====== */
