@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* ====== CSS RESET ====== */
 
@@ -59,8 +60,12 @@ table {
     border: none;
     border-radius: 25px;
     text-align: center;
+    color: black;
 }
 
+a:link {
+    text-decoration: none;
+}
 /* ====== MOBILE CSS ====== */
 
 @media screen and (max-width: 600px) {
@@ -104,6 +109,37 @@ table {
         padding-top: 90px;
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    /* ====== Navigation Bar ====== */
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+
+    header nav {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header nav ul li a {
+        display: block;
+        background-color: #91aa9d;
+        padding: 10px;
+        color: black;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    .active {
+        background-color: #80a8b8;
     }
 
 }
