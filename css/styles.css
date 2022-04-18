@@ -163,6 +163,14 @@ a:link {
         padding-top: 200px;
     }
 
+    .my-story-section h4 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 27px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
 }
 
 /* ====== END OF MOBILE CSS ====== */
