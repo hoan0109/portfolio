@@ -71,7 +71,7 @@ a:link {
 @media screen and (max-width: 600px) {
     
     /* ====== Home Background Image ====== */
-    main {
+    .home-main {
         background-image: url(../images/mobile-home-banner-600px.png);
         height: 1000px;
     }
