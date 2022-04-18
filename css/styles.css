@@ -142,6 +142,11 @@ a:link {
         background-color: #80a8b8;
     }
 
+    header a:hover {
+        background-color: #193441;
+        color: white;
+    }
+
 }
 
 /* ====== END OF MOBILE CSS ====== */
