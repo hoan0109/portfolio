@@ -65,11 +65,13 @@ table {
 
 @media screen and (max-width: 600px) {
     
+    /* ====== Home Background Image ====== */
     main {
         background-image: url(../images/mobile-home-banner-600px.png);
         height: 1000px;
     }
 
+    /* ====== Home Text ====== */
     .main-title {
         font-family: 'Abril Fatface', cursive;
         font-size: 65px;
