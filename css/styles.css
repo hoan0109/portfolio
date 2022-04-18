@@ -299,6 +299,55 @@ a:link {
     .social-icons img{
         padding-top: 15px;
         padding: 15px;
+        padding-bottom: 25px;
+    }
+
+    /* ====== Contact Form ====== */
+    .contact-form {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Lato', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .contact-form p{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-family: 'PT Serif', serif;
+        font-size: 12px;
+    }
+    
+    form {
+        margin: 15px;
+    }
+    
+    .thanks_form {
+        display: block;
+        width: 99%;
+        margin: 5px;
+    }
+    
+    .short {
+        height: 40px;
+    }
+    
+    .message {
+        height: 170px;
+    }
+    
+    .submit-button {
+        display: block;
+        margin: 5px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-family: 'Lato', sans-serif;
+        height: 25px;
+        width: 70px;
+        font-weight: 700;
     }
 }
 
