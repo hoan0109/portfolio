@@ -171,6 +171,18 @@ a:link {
         padding-bottom: 30px;
     }
 
+    .story-image {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .story-paragraph {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
 }
 
 /* ====== END OF MOBILE CSS ====== */
