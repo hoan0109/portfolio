@@ -255,6 +255,23 @@ a:link {
         text-align: center;
         padding-top: 200px;
     }
+    /* ====== Gallery Section ====== */
+    .gallery-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gallery-images {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .gallery-image3 {
+        display: block;
+        margin: 0 auto;
+        width: 260px;
+    }
 
     /* ====== Contact Page ====== */
     /* ====== Contact Background Image ====== */
