@@ -760,23 +760,23 @@ a:link {
 
     /* ====== About Background Image ====== */
     .about-banner {
-        background-image: url(../images/about-banner-900px.png);
-        height: 350px;
+        background-image: url(../images/about-banner-desktop.png);
+        height: 500px;
     }
 
     .about-banner h3 {
         font-family: 'Abril Fatface', cursive;
         color: white;
-        font-size: 55px;
+        font-size: 80px;
         text-align: center;
-        padding-top: 170px;
+        padding-top: 190px;
     }
 
     /* ====== My Story Section ====== */
 
     .my-story-section {
-        width: 1000px;
         display: block;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -799,13 +799,14 @@ a:link {
     }
 
     .story-paragraph {
-        width: 300px;
+        max-width: 300px;
         margin: 0 auto;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
     /* ====== My Skills Section ====== */
+    
     .skills-image {
         display: block;
         margin: 0 auto;
