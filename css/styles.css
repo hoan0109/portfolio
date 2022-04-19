@@ -66,6 +66,7 @@ table {
 a:link {
     text-decoration: none;
 }
+
 /* ====== MOBILE CSS ====== */
 
 @media screen and (max-width: 600px) {
@@ -674,19 +675,20 @@ a:link {
 @media screen and (min-width: 900px) {
 
     .home-main {
-        background-image: url(../images/desktop-home-banner-1200px.png);
-        height: 850px;
+        background-image: url(../images/home-banner-desktop.png);
+        height: 1800px;
+        width: 100%;
     }
 
     /* ====== Home Text ====== */
     .main-title {
         font-family: 'Abril Fatface', cursive;
-        font-size: 80px;
+        font-size: 150px;
         color: white;
     }
 
     .subtitle {
-        font-size: 15px;
+        font-size: 25px;
         color: white;
         padding-bottom: 1rem;
     }
@@ -696,22 +698,23 @@ a:link {
         border-left: 2px solid white;
         padding-left: 15px;
         font-family: 'PT Serif', serif;
-        font-size: 40px;
-        width: 250px;
+        font-size: 55px;
+        width: 400px;
     }
 
     .home-info {
         color: white;
-        width: 280px;
+        width: 350px;
         padding-top: 1rem;
         padding-bottom: 1rem;
         font-family: 'Lato', sans-serif;
+        font-size: 21px;
     }
 
     .home-text-section {
-        padding-top: 150px;
+        padding-top: 300px;
         display: block;
-        width: 510px;
+        width: 1000px;
         margin: 0 auto;
     }
     
@@ -751,6 +754,100 @@ a:link {
     header a:hover {
         background-color: #193441;
         color: white;
+    }
+
+    /* ====== About Page ====== */
+
+    /* ====== About Background Image ====== */
+    .about-banner {
+        background-image: url(../images/about-banner-900px.png);
+        height: 350px;
+    }
+
+    .about-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 170px;
+    }
+
+    /* ====== My Story Section ====== */
+
+    .my-story-section {
+        width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .my-story-section h4 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .my-story-section p {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .story-image {
+        width: 400px;
+        float: left;
+        padding-right: 30px;
+    }
+
+    .story-paragraph {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* ====== My Skills Section ====== */
+    .skills-image {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        padding-bottom: 80px;
+    }
+
+    /* ====== Download Resume Section ====== */
+    .download-resume-section {
+        text-align: center;
+    }
+    .download-resume-section p{
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+    }
+
+    .resume-buttons {
+        padding-top: 20px;
+        padding-bottom: 70px;
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    .download-button {
+        color: white;
+        background-color: #3e606f;
+        border: none;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
+    }
+
+    .print-button {
+        color: black;
+        background-color: white;
+        border: solid;
+        border-width: 10px;
+        border-color: #193441;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
     }
 
 }
