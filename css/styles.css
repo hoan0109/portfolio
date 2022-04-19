@@ -851,6 +851,38 @@ a:link {
         width: 49%;
     }
 
+    /* ====== Portfolio Page ====== */
+    /* ====== Portfolio Background Image ====== */
+    .portfolio-banner {
+        background-image: url(../images/portfolio-banner-desktop.png);
+        height: 500px;
+    }
+
+    .portfolio-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 80px;
+        text-align: center;
+        padding-top: 190px;
+    }
+    /* ====== Gallery Section ====== */
+    .gallery-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gallery-images {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        padding-top: 20px;
+    }
+
+    .gallery-image3 {
+        display: block;
+        margin: 0 auto;
+        width: 260px;
+    }
+
 }
 
 /* ====== END OF DESKTOP CSS ====== */
