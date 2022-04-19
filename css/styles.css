@@ -545,6 +545,126 @@ a:link {
         height: 80px;
         width: 49%;
     }
+
+    /* ====== Portfolio Page ====== */
+    /* ====== Portfolio Background Image ====== */
+    .portfolio-banner {
+        background-image: url(../images/portfolio-banner-900px.png);
+        height: 350px;
+    }
+
+    .portfolio-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 170px;
+    }
+    /* ====== Gallery Section ====== */
+    .gallery-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gallery-images {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .gallery-image3 {
+        display: block;
+        margin: 0 auto;
+        width: 260px;
+    }
+
+    /* ====== Contact Page ====== */
+    /* ====== Contact Background Image ====== */
+    .contact-banner {
+        background-image: url(../images/contact-banner-900px.png);
+        height: 350px;
+    }
+
+    .contact-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 170px;
+    }
+
+    /* ====== Contact Info ====== */
+
+    .contact-info {
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 75%;
+    }
+
+    .contact-info h5{
+        font-family: 'Abril Fatface', cursive;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .contact-info p{
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .social-icons img{
+        display: block;
+        padding-bottom: 3px;
+    }
+
+    /* ====== Contact Form ====== */
+    .contact-form {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: 'Lato', sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .contact-form p{
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+    }
+    
+    form {
+        margin: 15px;
+    }
+    
+    .thanks_form {
+        display: block;
+        width: 99%;
+        margin: 5px;
+    }
+    
+    .short {
+        height: 40px;
+    }
+    
+    .message {
+        height: 170px;
+    }
+    
+    .submit-button {
+        display: block;
+        margin: 5px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-family: 'Lato', sans-serif;
+        height: 25px;
+        width: 70px;
+        font-weight: 700;
+    }
 }
 
 /* ====== END OF TABLET CSS ====== */
@@ -556,6 +676,81 @@ a:link {
     .home-main {
         background-image: url(../images/desktop-home-banner-1200px.png);
         height: 850px;
+    }
+
+    /* ====== Home Text ====== */
+    .main-title {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 80px;
+        color: white;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+
+    .quote {
+        color: white;
+        border-left: 2px solid white;
+        padding-left: 15px;
+        font-family: 'PT Serif', serif;
+        font-size: 40px;
+        width: 250px;
+    }
+
+    .home-info {
+        color: white;
+        width: 280px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .home-text-section {
+        padding-top: 150px;
+        display: block;
+        width: 510px;
+        margin: 0 auto;
+    }
+    
+    /* ====== Navigation Bar ====== */
+
+    .logo {
+        float: left;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header a {
+        color: black;
+        font-weight: 700;
+    }
+
+    header nav ul li {
+		display: inline-block;
+        height: 100px;
+        width: 100px;
+        font-family: 'Lato' , sans-serif;
+	}
+
+    /* ===== Makes active font bolder ===== */
+    nav .active {
+        font-weight: 900;
+    }
+
+    .active {
+        background-color: #91aa9d;
+
+    }
+
+    header a:hover {
+        background-color: #193441;
+        color: white;
     }
 
 }
