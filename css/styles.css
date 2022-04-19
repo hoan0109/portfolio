@@ -108,8 +108,9 @@ a:link {
 
     .home-text-section {
         padding-top: 90px;
-        padding-left: 40px;
-        padding-right: 40px;
+        display: block;
+        width: 390px;
+        margin: 0 auto;
     }
 
     /* ====== Navigation Bar ====== */
@@ -374,11 +375,89 @@ a:link {
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
 
-    main {
+    .home-main {
         background-image: url(../images/tablet-home-banner-900px.png);
         height: 1000px;
     }
 
+    /* ====== Home Text ====== */
+    .main-title {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 80px;
+        color: white;
+    }
+
+    .subtitle {
+        font-size: 15px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+
+    .quote {
+        color: white;
+        border-left: 2px solid white;
+        padding-left: 15px;
+        font-family: 'PT Serif', serif;
+        font-size: 40px;
+        width: 250px;
+    }
+
+    .home-info {
+        color: white;
+        width: 280px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .home-text-section {
+        padding-top: 150px;
+        display: block;
+        width: 510px;
+        margin: 0 auto;
+    }
+
+    /* ====== Navigation Bar ====== */
+    .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        width: 75px;
+        height: auto;
+    }
+
+    header nav {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    header nav ul li a {
+        display: block;
+        background-color: #91aa9d;
+        padding: 10px;
+        color: black;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+
+    /* ===== Makes active font bolder ===== */
+    nav .active {
+        font-weight: 900;
+    }
+
+    .active {
+        background-color: #80a8b8;
+
+    }
+
+    header a:hover {
+        background-color: #193441;
+        color: white;
+    }
 }
 
 /* ====== END OF TABLET CSS ====== */
@@ -387,7 +466,7 @@ a:link {
 
 @media screen and (min-width: 900px) {
 
-    main {
+    .home-main {
         background-image: url(../images/desktop-home-banner-1200px.png);
         height: 850px;
     }
