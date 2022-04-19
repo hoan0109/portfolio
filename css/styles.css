@@ -458,6 +458,93 @@ a:link {
         background-color: #193441;
         color: white;
     }
+
+    /* ====== About Page ====== */
+
+    /* ====== About Background Image ====== */
+    .about-banner {
+        background-image: url(../images/about-banner-900px.png);
+        height: 350px;
+    }
+
+    .about-banner h3 {
+        font-family: 'Abril Fatface', cursive;
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        padding-top: 170px;
+    }
+
+    /* ====== My Story Section ====== */
+    .my-story-section h4 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .my-story-section p {
+        font-family: 'Lato', sans-serif;
+    }
+
+    .story-image {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .story-paragraph {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    /* ====== My Skills Section ====== */
+    .skills-image {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        padding-bottom: 80px;
+    }
+
+    /* ====== Download Resume Section ====== */
+    .download-resume-section {
+        text-align: center;
+    }
+    .download-resume-section p{
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+    }
+
+    .resume-buttons {
+        padding-top: 20px;
+        padding-bottom: 70px;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .download-button {
+        color: white;
+        background-color: #3e606f;
+        border: none;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
+    }
+
+    .print-button {
+        color: black;
+        background-color: white;
+        border: solid;
+        border-width: 10px;
+        border-color: #193441;
+        border-radius: 15px;
+        height: 80px;
+        width: 49%;
+    }
 }
 
 /* ====== END OF TABLET CSS ====== */
