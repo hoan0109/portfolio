@@ -726,18 +726,21 @@ a:link {
 
     nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+        padding-top: 45px;
+        padding-bottom: 38px;
     }
 
     header a {
         color: black;
         font-weight: 700;
+        font-size: 21px;
+        padding: 25px;
     }
 
     header nav ul li {
 		display: inline-block;
-        height: 100px;
-        width: 100px;
+        width: 150px;
         font-family: 'Lato' , sans-serif;
 	}
 
@@ -774,6 +777,11 @@ a:link {
 
     /* ====== My Story Section ====== */
 
+    .story {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
     .my-story-section {
         display: block;
         width: 100%;
@@ -799,7 +807,7 @@ a:link {
     }
 
     .story-paragraph {
-        max-width: 300px;
+        max-width: 500px;
         margin: 0 auto;
         padding-top: 10px;
         padding-bottom: 10px;
