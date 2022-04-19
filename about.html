@@ -31,7 +31,12 @@
             <h4>
                 My Story
             </h4>
-            <img src="images/story-image-600px.png" alt="placeholder" class="story-image">
+            <!-- Images in 2 sizes for Mobile & Tablet (Mobile same as Desktop)  -->
+            <picture>
+                <source media="(min-width:900px)" srcset="images/story-image-600px.png">
+                <source media="(min-width:600px)" srcset="images/story-image-900px.png">
+                <img src="images/story-image-600px.png" alt="placeholder" class="story-image">
+            </picture>
             <p class="story-paragraph">
                 My name is Joseph Hoang. I am a highly ambitious and motivated student in the Interactive Media Design (IMD) program at Algonquin College.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum vulputate velit et pharetra. Vestibulum convallis, nisi vitae pharetra dapibus, augue orci gravida nulla, vitae pretium neque nulla vitae lorem. Etiam sodales quam metus. Fusce eros nibh, lacinia sit amet libero at, ornare feugiat odio. Donec feugiat dapibus nibh, et tincidunt libero.
@@ -42,7 +47,12 @@
         </div>
         <!-- My skills section -->
         <div class="my-skills-section">
-            <img src="images/skills-image-600px.png" alt="placeholder" class="skills-image">
+            <!-- Images in 2 sizes for Mobile & Tablet (Mobile same as Desktop)  -->
+            <picture>
+                <source media="(min-width:900px)" srcset="images/skills-image-1200px.png">
+                <source media="(min-width:600px)" srcset="images/skills-image-900px.png">
+                <img src="images/skills-image-600px.png" alt="placeholder" class="skills-image">
+            </picture>
         </div>
         <!-- Download resume section -->
         <div class="download-resume-section">
